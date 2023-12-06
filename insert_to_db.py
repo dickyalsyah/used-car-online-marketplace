@@ -8,7 +8,7 @@ class InsertDummy:
         
     def credential(self):
         # Load environment variables from config.py
-        load_dotenv('config.py')
+        load_dotenv('env_config.py')
 
         conn = psycopg2.connect(
             user=os.environ['DATABASE_USERNAME'],

@@ -1,0 +1,9 @@
+name: used_car
+channels:
+  - defaults
+dependencies:
+  - Faker==19.3.0
+  - pandas
+  - psycopg2-binary==2.9.9
+  - csv
+prefix: /Users/dickyalsyah/anaconda3/envs/used_car
