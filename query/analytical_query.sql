@@ -102,6 +102,7 @@ JOIN cars c USING(car_id)
 JOIN car_brands cb USING(brand_id)
 WHERE
     b.bid_date >= DATE_TRUNC('month', CURRENT_DATE) - INTERVAL '6 months'
+	AND c.model LIKE '%Brio%'
 GROUP BY 1,2
 ORDER BY 1;
 
