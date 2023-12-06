@@ -1,0 +1,4 @@
+DATABASE_USERNAME='your_username'
+DATABASE_PASSWORD='your_password'
+DATABASE_HOST='your_host'
+DATABASE_PORT=5432
