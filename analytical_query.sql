@@ -24,46 +24,46 @@ SELECT
 	, cb.brand_name
 	, c.model
 	, c.year_manufacture
-	, ROUND(AVG(a.price),0) as avg_car_price
+	, a.price
+	, ROUND(AVG(a.price) OVER(PARTITION BY ci.city_name)) AS avg_car_price_per_city
 FROM ads a
 JOIN cars c USING(car_id)
 JOIN car_brands cb USING(brand_id)
 JOIN users u USING(user_id)
-JOIN cities ci USING(city_id)
-GROUP BY 1,2,3,4;
+JOIN cities ci USING(city_id);
 
 -- Dari penawaran suatu model mobil, cari perbandingan tanggal user melakukan bid dengan bid 
 -- selanjutnya beserta harga tawar yang diberikan
 SELECT
-    r1.model,
-    r1.buyer_id,
-    r1.bid_date AS first_bid_date,
-    r2.bid_date AS next_bid_date,
-    r1.bid_price AS first_bid_price,
-    r2.bid_price AS next_bid_price
+    model,
+    buyer_id,
+    first_bid_date,
+    next_bid_date,
+    first_bid_price,
+    next_bid_price
 FROM (
     SELECT
-        c.model,
-        b.buyer_id,
-        b.bid_date,
-        b.bid_price,
-        ROW_NUMBER() OVER(PARTITION BY c.model, b.buyer_id ORDER BY b.bid_date) AS rn
-    FROM bids b
-    JOIN ads a USING(ad_id)
-    JOIN cars c USING(car_id)
-) r1
-JOIN (
-    SELECT
-        c.model,
-        b.buyer_id,
-        b.bid_date,
-        b.bid_price,
-        ROW_NUMBER() OVER(PARTITION BY c.model, b.buyer_id ORDER BY b.bid_date) AS rn
-    FROM bids b
-    JOIN ads a USING(ad_id)
-    JOIN cars c USING(car_id)
-) r2 ON r1.model = r2.model AND r1.buyer_id = r2.buyer_id
-WHERE r1.rn = 1 AND r2.rn = 2;
+        model,
+        buyer_id,
+        bid_date AS first_bid_date,
+        LEAD(bid_date) OVER(PARTITION BY buyer_id ORDER BY bid_date) AS next_bid_date,
+        bid_price AS first_bid_price,
+        LEAD(bid_price) OVER(PARTITION BY buyer_id ORDER BY bid_date) AS next_bid_price,
+        ROW_NUMBER() OVER(PARTITION BY buyer_id ORDER BY bid_date) AS rn
+    FROM (
+        SELECT
+            c.model,
+            b.buyer_id,
+            b.bid_date,
+            b.bid_price
+        FROM bids b
+        JOIN ads a USING(ad_id)
+        JOIN cars c USING(car_id)
+        WHERE c.model LIKE '%Yaris%'
+    ) subquery1
+) subquery2
+WHERE rn = 1
+ORDER BY next_bid_date;
 
 -- Membandingkan persentase perbedaan rata-rata harga mobil berdasarkan modelnya dan 
 -- rata-rata harga bid yang ditawarkan oleh customer pada 6 bulan terakhir
