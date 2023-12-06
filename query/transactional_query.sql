@@ -9,7 +9,7 @@ FROM ads
 JOIN cars c USING(car_id)
 JOIN car_brands cb USING(brand_id)
 WHERE c.year_manufacture >= 2015
-ORDER BY 4;
+ORDER BY 5;
 
 -- Menambahkan satu data bid produk baru
 BEGIN;
