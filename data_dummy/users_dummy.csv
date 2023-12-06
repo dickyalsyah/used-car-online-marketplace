@@ -1,0 +1,101 @@
+user_id,name,phone_number,city_id,zip_code
+1,Argono Lestari,(000) 831-1696,1375,18863
+2,Kamidin Firgantoro,(0259) 266 4435,1375,16080
+3,"Ajeng Nababan, S.Psi",(0587) 653-4157,3273,15205
+4,Drs. Umay Adriansyah,(097) 182-2655,6472,15880
+5,"Limar Hakim, M.Ak",(0079) 610 3817,1371,15844
+6,Cindy Latupono,+62-158-173-5966,3573,18196
+7,"Ir. Jinawi Nashiruddin, M.Farm",0869045321,3172,16513
+8,Prabu Utama,082 768 9234,1375,14090
+9,Violet Narpati,(0697) 624 4603,3173,15710
+10,"Asmadi Hasanah, M.Farm",+62 (73) 899 1558,3175,15607
+11,Iriana Suryatmi,(0061) 401-3338,3175,15469
+12,"Tgk. Wulan Yuliarti, S.Ked",+62-005-292-3771,3172,15994
+13,Langgeng Latupono,+62-14-451-7973,3172,16923
+14,Ika Pangestu,+62-21-140-7097,7371,19046
+15,"Drs. Jaka Wibisono, S.Gz",(053) 521-0662,6472,14480
+16,Omar Rahayu,+62-073-758-9835,3273,14503
+17,Jaga Rahmawati,+62 (009) 206 2937,1375,15801
+18,"R. Rahmi Mandala, S.T.",+62 (838) 042 8691,3573,14804
+19,Tgk. Darmaji Iswahyudi,+62 (041) 335 4800,3573,18419
+20,"dr. Indah Nababan, S.Ked",+62-532-228-5438,1371,16938
+21,"T. Vinsen Salahudin, S.Farm",+62 (522) 778-9070,7371,14956
+22,Michelle Prasetya,+62-172-177-5527,3471,17511
+23,"Panji Suryatmi, S.IP",087 886 9505,1371,15976
+24,Caraka Ramadan,+62-51-440-1650,3273,19096
+25,Ajiono Halimah,(027) 329 3929,3578,18994
+26,Raihan Lazuardi,+62-10-000-4769,3171,17945
+27,Mahesa Suwarno,+62 (0857) 773-6254,3175,15972
+28,Dalima Suryatmi,(0248) 710-7393,3471,16153
+29,"Ophelia Hartati, S.H.",089 743 9411,3172,18905
+30,Carla Utama,+62-930-249-7272,3174,17397
+31,Himawan Yolanda,083 701 5681,3173,19331
+32,"Koko Pradana, S.E.I",+62-026-139-7892,3273,14017
+33,Leo Salahudin,+62 (012) 892 1325,7371,18327
+34,"Puti Eva Pratiwi, S.IP",+62 (31) 158-5057,6472,19865
+35,"Gawati Wahyuni, S.IP",+62 (476) 750-0518,3578,16165
+36,"Salsabila Wijayanti, M.Farm",083 633 8634,3273,18523
+37,"Jarwa Wijayanti, S.Farm",+62 (0517) 795-2962,5171,15678
+38,Leo Tamba,+62 (386) 954-6501,7371,19972
+39,Rosman Nuraini,+62 (214) 908-3628,3175,17246
+40,"KH. Setya Nababan, M.Pd",+62 (0575) 894-3142,3174,17398
+41,Hesti Januar,+62 (084) 206 0334,3174,17445
+42,"Harjo Narpati, S.Psi",+62 (0405) 981 8270,6472,17567
+43,"Citra Wasita, M.Farm",088 928 0847,3273,15286
+44,T. Wahyu Pudjiastuti,(081) 632-4767,3171,15876
+45,Bagus Waskita,(086) 367 8038,7371,19049
+46,dr. Kartika Lazuardi,+62-061-359-6984,1375,14156
+47,"drg. Kasiran Nashiruddin, S.Pt",+62 (910) 441 7099,1375,18763
+48,Agnes Wijayanti,+62 (075) 346 1018,3471,15477
+49,Karsa Thamrin,+62-047-916-7037,3172,18293
+50,"Dr. Jumadi Mulyani, S.E.",+62 (038) 492-1877,1371,17275
+51,"Yahya Prakasa, S.Gz",+62-21-646-8697,3172,15895
+52,Carla Hasanah,+62 (627) 043 2908,7371,19637
+53,Bagya Situmorang,(0508) 046-6042,3171,14127
+54,Drs. Eka Andriani,+62-327-574-1221,1375,14229
+55,Dodo Kuswoyo,0870480469,3173,17898
+56,Tantri Palastri,+62-455-649-2551,6471,16025
+57,Siska Kuswoyo,081 028 2709,6472,15653
+58,"dr. Arta Nuraini, S.E.",+62-20-520-3174,3273,14898
+59,Michelle Mangunsong,+62 (022) 432-8516,1375,15985
+60,Febi Nababan,+62 (85) 600-6619,1371,19597
+61,Mutia Rajasa,(067) 734 5401,3273,18834
+62,"drg. Puji Utami, S.H.",+62 (0232) 231-8572,3172,16616
+63,"Drs. Garan Saragih, S.I.Kom",+62 (60) 043-7474,6471,15985
+64,Martani Napitupulu,+62-89-836-5227,6471,17770
+65,"Ami Pranowo, M.Pd",+62-53-868-4773,3578,14858
+66,KH. Gandi Marpaung,+62-55-740-9406,3174,19665
+67,Suci Rahayu,+62-64-192-3126,6471,17603
+68,"KH. Mahesa Winarno, M.Pd",+62 (0632) 716-2047,3573,15599
+69,Ilsa Hasanah,+62 (90) 485 5219,3171,17610
+70,Uchita Marbun,+62 (71) 853 8701,1375,14209
+71,Ega Wacana,+62 (040) 406 0584,1371,19660
+72,"Sutan Cecep Sinaga, S.Sos",(0931) 837 6461,3471,17029
+73,Aurora Pertiwi,+62 (0819) 931-2901,3471,14726
+74,Pranawa Hassanah,+62 (31) 905-3108,3174,15132
+75,"Kawaya Jailani, S.Sos",+62-381-613-5272,3273,19268
+76,"Ir. Ulva Wastuti, S.Sos",+62 (0505) 644 2296,3172,17364
+77,"Dewi Hidayanto, S.IP",(026) 813 2538,6472,18498
+78,Nyana Purnawati,+62 (0382) 705 2646,6471,19730
+79,Puspa Dongoran,080 391 4837,3171,19134
+80,Daryani Hassanah,+62 (0974) 228-3084,3471,15882
+81,"Alika Wijayanti, M.Pd",+62 (405) 317-4451,3171,14532
+82,Wani Sihombing,+62 (00) 156 8138,6472,16932
+83,Oliva Hutagalung,(0420) 587 6654,6471,19774
+84,Manah Natsir,+62 (0304) 688-1651,3172,14946
+85,"Sutan Edward Laksita, S.IP",0828354117,3578,17345
+86,Laras Usamah,+62-554-828-8540,7371,14301
+87,Melinda Permata,(096) 103 5041,1371,14850
+88,Ir. Jelita Siregar,+62 (049) 901-7089,1375,15055
+89,Jati Hutagalung,(062) 849 5385,3573,15956
+90,Cut Lala Pertiwi,+62 (527) 992 2559,1371,18256
+91,Garda Marbun,0853330937,5171,18405
+92,Rika Namaga,+62 (611) 541-9873,3578,18146
+93,Eli Thamrin,(0357) 472 2788,5171,18799
+94,Gilang Astuti,+62 (0052) 682 7527,3172,15415
+95,Anita Marpaung,(076) 726 0286,3573,16866
+96,Cindy Pranowo,086 543 9204,7371,16391
+97,"Nova Nainggolan, S.Kom",+62-092-182-3499,3175,14058
+98,drg. Aisyah Safitri,+62-079-653-6633,1375,18831
+99,Ir. Padmi Setiawan,+62 (016) 368 4724,3171,16824
+100,Sarah Wahyuni,+62 (061) 638-2966,3175,15366

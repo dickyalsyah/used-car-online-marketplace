@@ -1,0 +1,2001 @@
+ad_id,user_id,car_id,title,description,mileage_km,color,transmission,price,ad_status,negotiable,post_date
+1,71,40,(2017) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Zaitun
+                Kilometer: 716078
+                
+        ",716078,Zaitun,AT/Otomatis,401510000,True,False,2021-08-16
+2,91,34,(2018) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 699804
+                
+        ",699804,Kuning,MT/Manual,269296000,True,False,2022-03-25
+3,32,28,(2012) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2012
+                Transmisi: MT/Manual
+                Warna: Biru muda
+                Kilometer: 22977
+                Harga bisa di NEGO!
+        ",22977,Biru muda,MT/Manual,395134000,False,True,2022-11-17
+4,11,46,(2022) Toyota Fortuner - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Fortuner
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Biru
+                Kilometer: 185211
+                Harga bisa di NEGO!
+        ",185211,Biru,AT/Otomatis,53018000,True,True,2023-08-16
+5,12,32,(2017) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Putih
+                Kilometer: 191006
+                Harga bisa di NEGO!
+        ",191006,Putih,AT/Otomatis,355752000,False,True,2023-03-17
+6,29,8,(2014) Suzuki Ertiga - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 222251
+                
+        ",222251,Kuning,MT/Manual,128551000,True,False,2021-07-12
+7,23,40,(2017) Honda Civic - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 893225
+                Harga bisa di NEGO!
+        ",893225,Koral,MT/Manual,222216000,False,True,2023-03-17
+8,91,3,(2014) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Merah jambu
+                Kilometer: 719217
+                Harga bisa di NEGO!
+        ",719217,Merah jambu,MT/Manual,179150000,False,True,2022-01-27
+9,52,15,(2017) Toyota Yaris - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Yaris
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Merah jambu
+                Kilometer: 990935
+                Harga bisa di NEGO!
+        ",990935,Merah jambu,MT/Manual,252430000,False,True,2022-08-11
+10,33,41,(2022) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Merah bata
+                Kilometer: 768017
+                Harga bisa di NEGO!
+        ",768017,Merah bata,MT/Manual,437056000,False,True,2023-08-12
+11,61,50,(2022) Suzuki Baleno - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Biru laut
+                Kilometer: 379606
+                Harga bisa di NEGO!
+        ",379606,Biru laut,MT/Manual,30099000,True,True,2023-01-24
+12,50,19,(2017) BMW 3301 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Biru
+                Kilometer: 825267
+                
+        ",825267,Biru,MT/Manual,22000000,True,False,2022-04-24
+13,23,21,(2022) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Merah marun
+                Kilometer: 747262
+                Harga bisa di NEGO!
+        ",747262,Merah marun,MT/Manual,319998000,False,True,2021-10-10
+14,54,47,(2021) Honda Jazz - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Jazz
+                Tahun Pembuatan: 2021
+                Transmisi: MT/Manual
+                Warna: Putih
+                Kilometer: 331841
+                Harga bisa di NEGO!
+        ",331841,Putih,MT/Manual,110073000,False,True,2023-03-20
+15,34,3,(2014) Suzuki Ignis - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Perak
+                Kilometer: 380192
+                Harga bisa di NEGO!
+        ",380192,Perak,AT/Otomatis,408798000,False,True,2023-09-29
+16,25,17,(2016) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2016
+                Transmisi: AT/Otomatis
+                Warna: Hijau
+                Kilometer: 104225
+                Harga bisa di NEGO!
+        ",104225,Hijau,AT/Otomatis,220182000,True,True,2021-12-16
+17,65,37,(2015) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Biru laut
+                Kilometer: 530394
+                
+        ",530394,Biru laut,AT/Otomatis,90071000,True,False,2021-10-05
+18,66,47,(2021) Honda Jazz - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Jazz
+                Tahun Pembuatan: 2021
+                Transmisi: AT/Otomatis
+                Warna: Merah marun
+                Kilometer: 594977
+                
+        ",594977,Merah marun,AT/Otomatis,62156000,False,False,2022-11-16
+19,57,31,(2019) Suzuki Baleno - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2019
+                Transmisi: MT/Manual
+                Warna: Perak
+                Kilometer: 816636
+                
+        ",816636,Perak,MT/Manual,440229000,False,False,2022-06-29
+20,9,44,(2013) Hyundai Ioniq 5 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2013
+                Transmisi: AT/Otomatis
+                Warna: Magenta
+                Kilometer: 275658
+                Harga bisa di NEGO!
+        ",275658,Magenta,AT/Otomatis,264582000,False,True,2023-02-17
+21,26,27,(2015) Honda HR-V - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda HR-V
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Putih
+                Kilometer: 539294
+                
+        ",539294,Putih,AT/Otomatis,256206000,False,False,2022-12-13
+22,83,33,(2014) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Emas
+                Kilometer: 939559
+                
+        ",939559,Emas,AT/Otomatis,131318000,True,False,2022-11-21
+23,37,46,(2022) Toyota Fortuner - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Fortuner
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Kuning
+                Kilometer: 301861
+                
+        ",301861,Kuning,AT/Otomatis,101057000,True,False,2022-03-15
+24,87,5,(2019) Daihatsu Terios - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Terios
+                Tahun Pembuatan: 2019
+                Transmisi: AT/Otomatis
+                Warna: Zaitun
+                Kilometer: 903810
+                Harga bisa di NEGO!
+        ",903810,Zaitun,AT/Otomatis,175906000,True,True,2023-05-07
+25,30,1,(2014) Suzuki Ertiga - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Putih
+                Kilometer: 195762
+                Harga bisa di NEGO!
+        ",195762,Putih,AT/Otomatis,254666000,False,True,2022-05-27
+26,74,18,(2014) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Ungu tua
+                Kilometer: 769626
+                Harga bisa di NEGO!
+        ",769626,Ungu tua,AT/Otomatis,497849000,True,True,2023-03-21
+27,51,41,(2022) Toyota Rush - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Coklat
+                Kilometer: 256441
+                Harga bisa di NEGO!
+        ",256441,Coklat,AT/Otomatis,271181000,False,True,2021-11-11
+28,98,39,(2020) Daihatsu Xenia - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Xenia
+                Tahun Pembuatan: 2020
+                Transmisi: AT/Otomatis
+                Warna: Jingga
+                Kilometer: 584822
+                
+        ",584822,Jingga,AT/Otomatis,66458000,True,False,2021-09-03
+29,98,11,(2018) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Hijau muda
+                Kilometer: 667070
+                
+        ",667070,Hijau muda,MT/Manual,38088000,True,False,2021-07-16
+30,61,25,(2014) Toyota Rush - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Hijau
+                Kilometer: 27664
+                
+        ",27664,Hijau,AT/Otomatis,346348000,True,False,2022-03-05
+31,16,44,(2013) Hyundai Ioniq 5 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 474486
+                
+        ",474486,Koral,MT/Manual,495099000,False,False,2021-12-14
+32,79,43,(2018) Toyota Alphard - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2018
+                Transmisi: AT/Otomatis
+                Warna: Biru laut
+                Kilometer: 507431
+                
+        ",507431,Biru laut,AT/Otomatis,289981000,False,False,2023-08-28
+33,37,40,(2017) Honda Civic - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Magenta
+                Kilometer: 894935
+                Harga bisa di NEGO!
+        ",894935,Magenta,MT/Manual,297062000,True,True,2022-08-29
+34,79,33,(2014) BMW 3301 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Merah bata
+                Kilometer: 700661
+                
+        ",700661,Merah bata,MT/Manual,51075000,True,False,2021-07-11
+35,53,21,(2022) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Coklat tua
+                Kilometer: 2492
+                
+        ",2492,Coklat tua,MT/Manual,365361000,True,False,2023-08-12
+36,83,8,(2014) Suzuki Ertiga - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Kuning
+                Kilometer: 112858
+                Harga bisa di NEGO!
+        ",112858,Kuning,AT/Otomatis,306269000,True,True,2021-08-04
+37,18,36,(2012) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2012
+                Transmisi: AT/Otomatis
+                Warna: Hitam
+                Kilometer: 287865
+                Harga bisa di NEGO!
+        ",287865,Hitam,AT/Otomatis,450578000,False,True,2023-11-09
+38,87,14,(2018) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: AT/Otomatis
+                Warna: Coklat tua
+                Kilometer: 248547
+                
+        ",248547,Coklat tua,AT/Otomatis,448901000,True,False,2022-07-27
+39,11,35,(2013) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2013
+                Transmisi: AT/Otomatis
+                Warna: Merah bata
+                Kilometer: 743301
+                Harga bisa di NEGO!
+        ",743301,Merah bata,AT/Otomatis,23331000,True,True,2022-04-25
+40,75,50,(2022) Suzuki Baleno - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Ungu
+                Kilometer: 804675
+                Harga bisa di NEGO!
+        ",804675,Ungu,AT/Otomatis,78939000,False,True,2023-07-23
+41,97,35,(2013) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Coklat tua
+                Kilometer: 298282
+                Harga bisa di NEGO!
+        ",298282,Coklat tua,MT/Manual,65483000,True,True,2021-11-15
+42,48,20,(2017) Toyota Calya - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Calya
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Magenta
+                Kilometer: 988923
+                
+        ",988923,Magenta,AT/Otomatis,199090000,False,False,2023-08-11
+43,51,34,(2018) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Abu-abu
+                Kilometer: 185019
+                Harga bisa di NEGO!
+        ",185019,Abu-abu,MT/Manual,315818000,False,True,2022-01-18
+44,9,40,(2017) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Biru dongker
+                Kilometer: 96425
+                
+        ",96425,Biru dongker,AT/Otomatis,312032000,False,False,2022-11-05
+45,13,37,(2015) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Hijau tua
+                Kilometer: 849475
+                Harga bisa di NEGO!
+        ",849475,Hijau tua,MT/Manual,144556000,True,True,2022-06-13
+46,25,41,(2022) Toyota Rush - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Putih
+                Kilometer: 465094
+                
+        ",465094,Putih,AT/Otomatis,447896000,False,False,2023-11-21
+47,53,35,(2013) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Biru laut
+                Kilometer: 35566
+                Harga bisa di NEGO!
+        ",35566,Biru laut,MT/Manual,94256000,True,True,2023-11-04
+48,6,46,(2022) Toyota Fortuner - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Fortuner
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Magenta
+                Kilometer: 326891
+                Harga bisa di NEGO!
+        ",326891,Magenta,AT/Otomatis,42781000,True,True,2022-12-09
+49,11,12,(2020) Suzuki Baleno - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Merah bata
+                Kilometer: 675746
+                Harga bisa di NEGO!
+        ",675746,Merah bata,MT/Manual,97821000,False,True,2023-07-14
+50,17,42,(2020) Honda Brio - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Brio
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Merah jambu
+                Kilometer: 937223
+                Harga bisa di NEGO!
+        ",937223,Merah jambu,MT/Manual,327709000,False,True,2022-08-21
+51,19,2,(2019) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2019
+                Transmisi: AT/Otomatis
+                Warna: Zaitun
+                Kilometer: 656091
+                
+        ",656091,Zaitun,AT/Otomatis,368292000,False,False,2023-05-08
+52,51,48,(2016) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2016
+                Transmisi: MT/Manual
+                Warna: Biru dongker
+                Kilometer: 319212
+                Harga bisa di NEGO!
+        ",319212,Biru dongker,MT/Manual,288046000,False,True,2023-05-11
+53,87,37,(2015) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Jingga
+                Kilometer: 830183
+                Harga bisa di NEGO!
+        ",830183,Jingga,MT/Manual,252420000,True,True,2022-12-12
+54,69,2,(2019) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2019
+                Transmisi: MT/Manual
+                Warna: Emas
+                Kilometer: 287836
+                
+        ",287836,Emas,MT/Manual,24606000,True,False,2021-08-04
+55,55,27,(2015) Honda HR-V - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda HR-V
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Emas
+                Kilometer: 856252
+                Harga bisa di NEGO!
+        ",856252,Emas,AT/Otomatis,343066000,False,True,2022-10-13
+56,5,11,(2018) Toyota Rush - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2018
+                Transmisi: AT/Otomatis
+                Warna: Hitam
+                Kilometer: 28932
+                
+        ",28932,Hitam,AT/Otomatis,89175000,False,False,2022-08-28
+57,38,49,(2015) Suzuki Ertiga - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Coklat tua
+                Kilometer: 724268
+                
+        ",724268,Coklat tua,MT/Manual,346580000,True,False,2023-05-10
+58,29,2,(2019) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2019
+                Transmisi: AT/Otomatis
+                Warna: Merah marun
+                Kilometer: 793330
+                
+        ",793330,Merah marun,AT/Otomatis,320230000,False,False,2022-10-15
+59,15,17,(2016) Honda Civic - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2016
+                Transmisi: MT/Manual
+                Warna: Biru
+                Kilometer: 990440
+                Harga bisa di NEGO!
+        ",990440,Biru,MT/Manual,333779000,True,True,2023-04-20
+60,31,8,(2014) Suzuki Ertiga - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Jingga
+                Kilometer: 855195
+                Harga bisa di NEGO!
+        ",855195,Jingga,MT/Manual,280325000,False,True,2021-09-22
+61,8,25,(2014) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Jingga
+                Kilometer: 761575
+                Harga bisa di NEGO!
+        ",761575,Jingga,MT/Manual,462843000,False,True,2021-05-13
+62,74,37,(2015) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Coklat tua
+                Kilometer: 362278
+                
+        ",362278,Coklat tua,AT/Otomatis,331949000,True,False,2023-06-09
+63,9,7,(2022) Honda Jazz - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Jazz
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Ungu
+                Kilometer: 679853
+                
+        ",679853,Ungu,AT/Otomatis,420683000,False,False,2023-01-27
+64,71,11,(2018) Toyota Rush - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2018
+                Transmisi: AT/Otomatis
+                Warna: Ungu
+                Kilometer: 911413
+                
+        ",911413,Ungu,AT/Otomatis,268760000,False,False,2022-01-17
+65,62,7,(2022) Honda Jazz - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Jazz
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Biru muda
+                Kilometer: 188601
+                
+        ",188601,Biru muda,AT/Otomatis,142534000,True,False,2023-06-15
+66,72,45,(2021) Hyundai Ioniq 5 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2021
+                Transmisi: AT/Otomatis
+                Warna: Nila
+                Kilometer: 766122
+                Harga bisa di NEGO!
+        ",766122,Nila,AT/Otomatis,363861000,True,True,2023-03-15
+67,18,32,(2017) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Jingga
+                Kilometer: 228764
+                
+        ",228764,Jingga,AT/Otomatis,437319000,False,False,2023-08-11
+68,48,20,(2017) Toyota Calya - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Calya
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Coklat tua
+                Kilometer: 939806
+                
+        ",939806,Coklat tua,AT/Otomatis,487042000,True,False,2023-06-12
+69,64,14,(2018) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Putih
+                Kilometer: 180346
+                Harga bisa di NEGO!
+        ",180346,Putih,MT/Manual,178022000,False,True,2022-10-08
+70,8,5,(2019) Daihatsu Terios - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Terios
+                Tahun Pembuatan: 2019
+                Transmisi: AT/Otomatis
+                Warna: Magenta
+                Kilometer: 721941
+                Harga bisa di NEGO!
+        ",721941,Magenta,AT/Otomatis,466980000,False,True,2022-11-26
+71,20,10,(2020) Hyundai Creta - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Creta
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 646503
+                
+        ",646503,Kuning,MT/Manual,327713000,True,False,2022-07-19
+72,51,26,(2015) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Perak
+                Kilometer: 913579
+                
+        ",913579,Perak,MT/Manual,109200000,True,False,2023-02-05
+73,84,17,(2016) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2016
+                Transmisi: AT/Otomatis
+                Warna: Biru dongker
+                Kilometer: 817476
+                Harga bisa di NEGO!
+        ",817476,Biru dongker,AT/Otomatis,316544000,True,True,2022-10-29
+74,29,1,(2014) Suzuki Ertiga - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Ungu
+                Kilometer: 76061
+                
+        ",76061,Ungu,AT/Otomatis,280650000,False,False,2023-01-10
+75,34,13,(2022) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Nila
+                Kilometer: 106157
+                Harga bisa di NEGO!
+        ",106157,Nila,AT/Otomatis,159565000,False,True,2023-10-08
+76,53,19,(2017) BMW 3301 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Putih
+                Kilometer: 358946
+                Harga bisa di NEGO!
+        ",358946,Putih,MT/Manual,107272000,True,True,2023-08-02
+77,38,36,(2012) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2012
+                Transmisi: MT/Manual
+                Warna: Biru
+                Kilometer: 819915
+                Harga bisa di NEGO!
+        ",819915,Biru,MT/Manual,53118000,True,True,2021-06-03
+78,27,25,(2014) Toyota Rush - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Koral
+                Kilometer: 963391
+                
+        ",963391,Koral,AT/Otomatis,193220000,True,False,2023-04-02
+79,6,35,(2013) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Nila
+                Kilometer: 292277
+                Harga bisa di NEGO!
+        ",292277,Nila,MT/Manual,255947000,False,True,2023-03-28
+80,16,32,(2017) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Coklat
+                Kilometer: 441728
+                Harga bisa di NEGO!
+        ",441728,Coklat,MT/Manual,168041000,True,True,2022-10-19
+81,96,6,(2018) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: AT/Otomatis
+                Warna: Coklat
+                Kilometer: 352635
+                
+        ",352635,Coklat,AT/Otomatis,289064000,True,False,2023-08-28
+82,86,30,(2013) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2013
+                Transmisi: AT/Otomatis
+                Warna: Jingga
+                Kilometer: 924713
+                Harga bisa di NEGO!
+        ",924713,Jingga,AT/Otomatis,465561000,False,True,2022-04-14
+83,20,22,(2015) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Hijau tua
+                Kilometer: 585266
+                Harga bisa di NEGO!
+        ",585266,Hijau tua,AT/Otomatis,486649000,True,True,2023-03-13
+84,74,17,(2016) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2016
+                Transmisi: AT/Otomatis
+                Warna: Koral
+                Kilometer: 92749
+                Harga bisa di NEGO!
+        ",92749,Koral,AT/Otomatis,394784000,False,True,2023-07-07
+85,74,10,(2020) Hyundai Creta - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Creta
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 34201
+                Harga bisa di NEGO!
+        ",34201,Koral,MT/Manual,45683000,True,True,2023-10-10
+86,83,18,(2014) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Coklat tua
+                Kilometer: 359867
+                
+        ",359867,Coklat tua,AT/Otomatis,384603000,True,False,2023-05-05
+87,72,42,(2020) Honda Brio - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Brio
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Hitam
+                Kilometer: 454204
+                Harga bisa di NEGO!
+        ",454204,Hitam,MT/Manual,288202000,False,True,2023-09-19
+88,81,3,(2014) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Merah marun
+                Kilometer: 354936
+                
+        ",354936,Merah marun,MT/Manual,30621000,True,False,2022-09-30
+89,41,3,(2014) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Nila
+                Kilometer: 293701
+                
+        ",293701,Nila,MT/Manual,125038000,False,False,2021-05-18
+90,41,16,(2014) Hyundai Ioniq 5 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 28114
+                
+        ",28114,Koral,MT/Manual,480287000,False,False,2021-08-18
+91,90,22,(2015) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Koral
+                Kilometer: 160023
+                
+        ",160023,Koral,AT/Otomatis,153773000,False,False,2023-07-18
+92,14,47,(2021) Honda Jazz - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Jazz
+                Tahun Pembuatan: 2021
+                Transmisi: AT/Otomatis
+                Warna: Biru muda
+                Kilometer: 101815
+                Harga bisa di NEGO!
+        ",101815,Biru muda,AT/Otomatis,90250000,False,True,2023-11-26
+93,74,25,(2014) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Biru laut
+                Kilometer: 997516
+                
+        ",997516,Biru laut,MT/Manual,230062000,False,False,2023-01-09
+94,34,14,(2018) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Merah marun
+                Kilometer: 956203
+                Harga bisa di NEGO!
+        ",956203,Merah marun,MT/Manual,69832000,True,True,2022-05-20
+95,37,19,(2017) BMW 3301 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Merah marun
+                Kilometer: 578345
+                
+        ",578345,Merah marun,MT/Manual,233472000,False,False,2021-08-16
+96,92,36,(2012) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2012
+                Transmisi: AT/Otomatis
+                Warna: Hijau muda
+                Kilometer: 876302
+                
+        ",876302,Hijau muda,AT/Otomatis,163081000,True,False,2021-06-21
+97,86,45,(2021) Hyundai Ioniq 5 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2021
+                Transmisi: MT/Manual
+                Warna: Biru dongker
+                Kilometer: 578900
+                Harga bisa di NEGO!
+        ",578900,Biru dongker,MT/Manual,195954000,False,True,2023-08-09
+98,32,23,(2020) Honda CR-V - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda CR-V
+                Tahun Pembuatan: 2020
+                Transmisi: AT/Otomatis
+                Warna: Ungu tua
+                Kilometer: 170652
+                
+        ",170652,Ungu tua,AT/Otomatis,443840000,True,False,2021-06-19
+99,72,42,(2020) Honda Brio - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Brio
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 620378
+                
+        ",620378,Kuning,MT/Manual,153062000,True,False,2023-02-03
+100,76,36,(2012) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2012
+                Transmisi: MT/Manual
+                Warna: Merah marun
+                Kilometer: 555439
+                
+        ",555439,Merah marun,MT/Manual,365247000,True,False,2022-06-03
+101,73,15,(2017) Toyota Yaris - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Yaris
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Jingga
+                Kilometer: 491653
+                
+        ",491653,Jingga,MT/Manual,69669000,False,False,2022-09-11
+102,19,39,(2020) Daihatsu Xenia - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Xenia
+                Tahun Pembuatan: 2020
+                Transmisi: AT/Otomatis
+                Warna: Ungu tua
+                Kilometer: 116651
+                Harga bisa di NEGO!
+        ",116651,Ungu tua,AT/Otomatis,257310000,True,True,2022-10-27
+103,41,1,(2014) Suzuki Ertiga - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 312740
+                Harga bisa di NEGO!
+        ",312740,Koral,MT/Manual,176425000,True,True,2023-07-20
+104,15,39,(2020) Daihatsu Xenia - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Xenia
+                Tahun Pembuatan: 2020
+                Transmisi: AT/Otomatis
+                Warna: Abu-abu
+                Kilometer: 890671
+                Harga bisa di NEGO!
+        ",890671,Abu-abu,AT/Otomatis,236111000,False,True,2023-11-27
+105,15,39,(2020) Daihatsu Xenia - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Xenia
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Merah marun
+                Kilometer: 274021
+                
+        ",274021,Merah marun,MT/Manual,313193000,True,False,2022-03-14
+106,2,43,(2018) Toyota Alphard - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 781557
+                
+        ",781557,Koral,MT/Manual,307223000,False,False,2023-11-30
+107,22,35,(2013) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Hijau tua
+                Kilometer: 954021
+                
+        ",954021,Hijau tua,MT/Manual,172544000,False,False,2023-09-17
+108,95,6,(2018) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 173582
+                Harga bisa di NEGO!
+        ",173582,Koral,MT/Manual,340216000,True,True,2023-07-19
+109,51,40,(2017) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Hijau muda
+                Kilometer: 586592
+                
+        ",586592,Hijau muda,AT/Otomatis,251264000,True,False,2022-07-16
+110,70,24,(2013) Toyota Alphard - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2013
+                Transmisi: AT/Otomatis
+                Warna: Hijau muda
+                Kilometer: 514632
+                Harga bisa di NEGO!
+        ",514632,Hijau muda,AT/Otomatis,77593000,False,True,2021-09-24
+111,70,46,(2022) Toyota Fortuner - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Fortuner
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Merah bata
+                Kilometer: 755821
+                Harga bisa di NEGO!
+        ",755821,Merah bata,MT/Manual,97655000,True,True,2022-05-08
+112,13,37,(2015) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Biru
+                Kilometer: 612271
+                Harga bisa di NEGO!
+        ",612271,Biru,MT/Manual,426437000,True,True,2023-02-08
+113,72,26,(2015) Suzuki Ignis - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Coklat tua
+                Kilometer: 577890
+                
+        ",577890,Coklat tua,AT/Otomatis,92970000,False,False,2021-05-13
+114,28,25,(2014) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Emas
+                Kilometer: 622658
+                Harga bisa di NEGO!
+        ",622658,Emas,MT/Manual,205786000,False,True,2023-08-19
+115,58,19,(2017) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Biru
+                Kilometer: 869698
+                Harga bisa di NEGO!
+        ",869698,Biru,AT/Otomatis,390912000,False,True,2023-04-12
+116,10,2,(2019) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2019
+                Transmisi: MT/Manual
+                Warna: Biru
+                Kilometer: 791524
+                Harga bisa di NEGO!
+        ",791524,Biru,MT/Manual,356756000,True,True,2023-06-05
+117,63,46,(2022) Toyota Fortuner - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Fortuner
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Kuning
+                Kilometer: 335649
+                Harga bisa di NEGO!
+        ",335649,Kuning,AT/Otomatis,357527000,True,True,2022-02-02
+118,66,4,(2022) Hyundai Creta - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Creta
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Coklat
+                Kilometer: 717962
+                
+        ",717962,Coklat,AT/Otomatis,282175000,False,False,2022-08-18
+119,9,9,(2013) Toyota Calya - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Calya
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Putih
+                Kilometer: 959361
+                Harga bisa di NEGO!
+        ",959361,Putih,MT/Manual,299229000,False,True,2022-08-15
+120,46,31,(2019) Suzuki Baleno - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2019
+                Transmisi: MT/Manual
+                Warna: Hijau muda
+                Kilometer: 667683
+                Harga bisa di NEGO!
+        ",667683,Hijau muda,MT/Manual,409788000,True,True,2023-02-11
+121,42,21,(2022) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Hijau muda
+                Kilometer: 594357
+                
+        ",594357,Hijau muda,AT/Otomatis,112780000,True,False,2023-05-10
+122,51,46,(2022) Toyota Fortuner - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Fortuner
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Emas
+                Kilometer: 7519
+                
+        ",7519,Emas,AT/Otomatis,65871000,True,False,2021-09-04
+123,84,33,(2014) BMW 3301 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Hitam
+                Kilometer: 178358
+                Harga bisa di NEGO!
+        ",178358,Hitam,MT/Manual,358952000,True,True,2021-08-24
+124,22,32,(2017) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Hijau tua
+                Kilometer: 579922
+                Harga bisa di NEGO!
+        ",579922,Hijau tua,AT/Otomatis,398750000,True,True,2022-09-26
+125,53,27,(2015) Honda HR-V - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda HR-V
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Hijau tua
+                Kilometer: 802164
+                Harga bisa di NEGO!
+        ",802164,Hijau tua,AT/Otomatis,315190000,True,True,2021-10-12
+126,8,38,(2012) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2012
+                Transmisi: AT/Otomatis
+                Warna: Perak
+                Kilometer: 652016
+                Harga bisa di NEGO!
+        ",652016,Perak,AT/Otomatis,276043000,True,True,2023-06-20
+127,68,32,(2017) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Hijau
+                Kilometer: 620642
+                
+        ",620642,Hijau,AT/Otomatis,486164000,False,False,2023-04-27
+128,86,3,(2014) Suzuki Ignis - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Biru laut
+                Kilometer: 727800
+                Harga bisa di NEGO!
+        ",727800,Biru laut,AT/Otomatis,286202000,True,True,2023-05-26
+129,34,9,(2013) Toyota Calya - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Calya
+                Tahun Pembuatan: 2013
+                Transmisi: AT/Otomatis
+                Warna: Biru
+                Kilometer: 523710
+                
+        ",523710,Biru,AT/Otomatis,334860000,False,False,2022-06-14
+130,87,9,(2013) Toyota Calya - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Calya
+                Tahun Pembuatan: 2013
+                Transmisi: AT/Otomatis
+                Warna: Coklat tua
+                Kilometer: 719708
+                Harga bisa di NEGO!
+        ",719708,Coklat tua,AT/Otomatis,419603000,True,True,2022-06-12
+131,77,35,(2013) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Merah marun
+                Kilometer: 794941
+                
+        ",794941,Merah marun,MT/Manual,403051000,False,False,2023-06-04
+132,37,32,(2017) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Koral
+                Kilometer: 581333
+                
+        ",581333,Koral,AT/Otomatis,47863000,True,False,2021-11-13
+133,84,39,(2020) Daihatsu Xenia - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Xenia
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 339933
+                
+        ",339933,Kuning,MT/Manual,377229000,False,False,2023-08-11
+134,21,21,(2022) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Magenta
+                Kilometer: 817411
+                Harga bisa di NEGO!
+        ",817411,Magenta,AT/Otomatis,364825000,True,True,2022-08-20
+135,98,38,(2012) Honda Civic - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2012
+                Transmisi: MT/Manual
+                Warna: Zaitun
+                Kilometer: 170750
+                
+        ",170750,Zaitun,MT/Manual,187770000,False,False,2022-06-23
+136,3,6,(2018) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Jingga
+                Kilometer: 260666
+                Harga bisa di NEGO!
+        ",260666,Jingga,MT/Manual,409387000,True,True,2022-03-19
+137,81,43,(2018) Toyota Alphard - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2018
+                Transmisi: AT/Otomatis
+                Warna: Jingga
+                Kilometer: 78158
+                
+        ",78158,Jingga,AT/Otomatis,171007000,False,False,2022-03-04
+138,62,45,(2021) Hyundai Ioniq 5 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2021
+                Transmisi: MT/Manual
+                Warna: Biru laut
+                Kilometer: 228516
+                
+        ",228516,Biru laut,MT/Manual,75734000,False,False,2023-11-04
+139,22,13,(2022) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 245755
+                Harga bisa di NEGO!
+        ",245755,Kuning,MT/Manual,292390000,True,True,2023-10-29
+140,81,22,(2015) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Ungu tua
+                Kilometer: 539296
+                Harga bisa di NEGO!
+        ",539296,Ungu tua,AT/Otomatis,254367000,True,True,2023-05-28
+141,1,23,(2020) Honda CR-V - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda CR-V
+                Tahun Pembuatan: 2020
+                Transmisi: AT/Otomatis
+                Warna: Koral
+                Kilometer: 792172
+                Harga bisa di NEGO!
+        ",792172,Koral,AT/Otomatis,395596000,False,True,2022-07-25
+142,1,1,(2014) Suzuki Ertiga - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Biru
+                Kilometer: 597768
+                Harga bisa di NEGO!
+        ",597768,Biru,AT/Otomatis,435255000,False,True,2023-10-18
+143,61,19,(2017) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Hijau tua
+                Kilometer: 100071
+                
+        ",100071,Hijau tua,AT/Otomatis,121361000,True,False,2021-12-23
+144,81,20,(2017) Toyota Calya - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Calya
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Hijau muda
+                Kilometer: 795472
+                Harga bisa di NEGO!
+        ",795472,Hijau muda,MT/Manual,195869000,False,True,2021-09-27
+145,84,33,(2014) BMW 3301 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Biru muda
+                Kilometer: 928482
+                
+        ",928482,Biru muda,MT/Manual,428985000,True,False,2021-07-18
+146,100,8,(2014) Suzuki Ertiga - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Ungu tua
+                Kilometer: 71593
+                
+        ",71593,Ungu tua,AT/Otomatis,57595000,True,False,2021-09-09
+147,48,37,(2015) Daihatsu Ayla - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2015
+                Transmisi: AT/Otomatis
+                Warna: Emas
+                Kilometer: 206985
+                Harga bisa di NEGO!
+        ",206985,Emas,AT/Otomatis,91639000,False,True,2022-09-01
+148,21,11,(2018) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Ungu
+                Kilometer: 989732
+                
+        ",989732,Ungu,MT/Manual,492889000,True,False,2022-05-03
+149,99,6,(2018) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Coklat tua
+                Kilometer: 151978
+                
+        ",151978,Coklat tua,MT/Manual,211816000,True,False,2023-06-02
+150,35,16,(2014) Hyundai Ioniq 5 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Hijau muda
+                Kilometer: 479294
+                Harga bisa di NEGO!
+        ",479294,Hijau muda,MT/Manual,465006000,True,True,2022-08-28
+151,74,15,(2017) Toyota Yaris - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Yaris
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Merah bata
+                Kilometer: 244749
+                
+        ",244749,Merah bata,MT/Manual,389248000,True,False,2021-10-06
+152,55,24,(2013) Toyota Alphard - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Jingga
+                Kilometer: 511223
+                Harga bisa di NEGO!
+        ",511223,Jingga,MT/Manual,71273000,True,True,2022-02-24
+153,49,50,(2022) Suzuki Baleno - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Abu-abu
+                Kilometer: 412872
+                Harga bisa di NEGO!
+        ",412872,Abu-abu,MT/Manual,233979000,False,True,2023-06-09
+154,16,40,(2017) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Merah jambu
+                Kilometer: 224574
+                
+        ",224574,Merah jambu,AT/Otomatis,35454000,True,False,2021-11-27
+155,90,18,(2014) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Coklat tua
+                Kilometer: 70578
+                Harga bisa di NEGO!
+        ",70578,Coklat tua,AT/Otomatis,50954000,True,True,2022-09-03
+156,2,18,(2014) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Hitam
+                Kilometer: 217983
+                Harga bisa di NEGO!
+        ",217983,Hitam,AT/Otomatis,359255000,True,True,2023-01-06
+157,93,50,(2022) Suzuki Baleno - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Biru laut
+                Kilometer: 799968
+                Harga bisa di NEGO!
+        ",799968,Biru laut,MT/Manual,132850000,False,True,2021-12-02
+158,19,45,(2021) Hyundai Ioniq 5 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2021
+                Transmisi: MT/Manual
+                Warna: Biru laut
+                Kilometer: 712641
+                
+        ",712641,Biru laut,MT/Manual,378762000,True,False,2023-08-21
+159,79,12,(2020) Suzuki Baleno - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Hijau tua
+                Kilometer: 633950
+                
+        ",633950,Hijau tua,MT/Manual,420077000,False,False,2022-08-19
+160,22,36,(2012) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2012
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 442915
+                Harga bisa di NEGO!
+        ",442915,Kuning,MT/Manual,443470000,False,True,2021-07-20
+161,16,34,(2018) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Biru laut
+                Kilometer: 896040
+                
+        ",896040,Biru laut,MT/Manual,217798000,False,False,2022-09-23
+162,93,35,(2013) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 230322
+                Harga bisa di NEGO!
+        ",230322,Koral,MT/Manual,146563000,False,True,2023-02-03
+163,30,27,(2015) Honda HR-V - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda HR-V
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Emas
+                Kilometer: 251894
+                Harga bisa di NEGO!
+        ",251894,Emas,MT/Manual,180724000,True,True,2022-01-02
+164,61,18,(2014) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Coklat tua
+                Kilometer: 440183
+                Harga bisa di NEGO!
+        ",440183,Coklat tua,AT/Otomatis,281994000,False,True,2023-02-16
+165,67,48,(2016) Suzuki Ignis - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2016
+                Transmisi: AT/Otomatis
+                Warna: Hijau muda
+                Kilometer: 292135
+                Harga bisa di NEGO!
+        ",292135,Hijau muda,AT/Otomatis,317933000,False,True,2021-12-25
+166,7,11,(2018) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Zaitun
+                Kilometer: 846877
+                Harga bisa di NEGO!
+        ",846877,Zaitun,MT/Manual,152004000,True,True,2023-10-15
+167,8,25,(2014) Toyota Rush - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Merah
+                Kilometer: 57451
+                Harga bisa di NEGO!
+        ",57451,Merah,AT/Otomatis,486445000,False,True,2022-11-27
+168,73,5,(2019) Daihatsu Terios - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Terios
+                Tahun Pembuatan: 2019
+                Transmisi: AT/Otomatis
+                Warna: Ungu
+                Kilometer: 812633
+                Harga bisa di NEGO!
+        ",812633,Ungu,AT/Otomatis,213719000,False,True,2021-08-14
+169,94,41,(2022) Toyota Rush - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Rush
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Putih
+                Kilometer: 464537
+                Harga bisa di NEGO!
+        ",464537,Putih,MT/Manual,343296000,False,True,2023-03-01
+170,100,2,(2019) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2019
+                Transmisi: MT/Manual
+                Warna: Biru laut
+                Kilometer: 868685
+                Harga bisa di NEGO!
+        ",868685,Biru laut,MT/Manual,309896000,True,True,2023-09-21
+171,76,26,(2015) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Abu-abu
+                Kilometer: 593238
+                
+        ",593238,Abu-abu,MT/Manual,293743000,False,False,2021-11-20
+172,17,36,(2012) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2012
+                Transmisi: MT/Manual
+                Warna: Merah
+                Kilometer: 653950
+                Harga bisa di NEGO!
+        ",653950,Merah,MT/Manual,453803000,False,True,2022-12-21
+173,89,13,(2022) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Biru dongker
+                Kilometer: 255709
+                Harga bisa di NEGO!
+        ",255709,Biru dongker,MT/Manual,468568000,True,True,2023-05-04
+174,95,10,(2020) Hyundai Creta - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Creta
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Coklat tua
+                Kilometer: 463153
+                
+        ",463153,Coklat tua,MT/Manual,352725000,False,False,2022-11-22
+175,49,20,(2017) Toyota Calya - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Calya
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Hijau tua
+                Kilometer: 534507
+                
+        ",534507,Hijau tua,AT/Otomatis,90262000,False,False,2023-05-05
+176,100,16,(2014) Hyundai Ioniq 5 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2014
+                Transmisi: MT/Manual
+                Warna: Hitam
+                Kilometer: 250881
+                
+        ",250881,Hitam,MT/Manual,422045000,False,False,2022-10-21
+177,77,23,(2020) Honda CR-V - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda CR-V
+                Tahun Pembuatan: 2020
+                Transmisi: AT/Otomatis
+                Warna: Emas
+                Kilometer: 723548
+                
+        ",723548,Emas,AT/Otomatis,284682000,True,False,2022-12-03
+178,37,38,(2012) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2012
+                Transmisi: AT/Otomatis
+                Warna: Kuning
+                Kilometer: 571957
+                
+        ",571957,Kuning,AT/Otomatis,488364000,True,False,2021-12-01
+179,34,43,(2018) Toyota Alphard - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2018
+                Transmisi: AT/Otomatis
+                Warna: Jingga
+                Kilometer: 513057
+                Harga bisa di NEGO!
+        ",513057,Jingga,AT/Otomatis,127003000,False,True,2021-06-13
+180,7,21,(2022) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Hijau tua
+                Kilometer: 498412
+                
+        ",498412,Hijau tua,AT/Otomatis,77806000,False,False,2023-09-24
+181,51,43,(2018) Toyota Alphard - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Coklat tua
+                Kilometer: 234748
+                Harga bisa di NEGO!
+        ",234748,Coklat tua,MT/Manual,489289000,False,True,2022-04-19
+182,26,19,(2017) BMW 3301 - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2017
+                Transmisi: MT/Manual
+                Warna: Abu-abu
+                Kilometer: 659774
+                Harga bisa di NEGO!
+        ",659774,Abu-abu,MT/Manual,52632000,True,True,2022-01-31
+183,5,44,(2013) Hyundai Ioniq 5 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Ioniq 5
+                Tahun Pembuatan: 2013
+                Transmisi: AT/Otomatis
+                Warna: Hijau
+                Kilometer: 309683
+                Harga bisa di NEGO!
+        ",309683,Hijau,AT/Otomatis,403307000,True,True,2022-03-29
+184,26,31,(2019) Suzuki Baleno - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2019
+                Transmisi: AT/Otomatis
+                Warna: Biru
+                Kilometer: 622366
+                Harga bisa di NEGO!
+        ",622366,Biru,AT/Otomatis,397812000,True,True,2023-10-27
+185,54,14,(2018) Hyundai Santa Fe - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Hijau tua
+                Kilometer: 631584
+                
+        ",631584,Hijau tua,MT/Manual,438766000,False,False,2022-05-15
+186,57,20,(2017) Toyota Calya - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Calya
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Kuning
+                Kilometer: 540927
+                
+        ",540927,Kuning,AT/Otomatis,21575000,True,False,2021-12-28
+187,74,49,(2015) Suzuki Ertiga - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 425297
+                Harga bisa di NEGO!
+        ",425297,Kuning,MT/Manual,245851000,False,True,2023-06-22
+188,33,24,(2013) Toyota Alphard - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2013
+                Transmisi: AT/Otomatis
+                Warna: Biru dongker
+                Kilometer: 585332
+                
+        ",585332,Biru dongker,AT/Otomatis,263553000,False,False,2023-05-05
+189,15,4,(2022) Hyundai Creta - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Creta
+                Tahun Pembuatan: 2022
+                Transmisi: AT/Otomatis
+                Warna: Putih
+                Kilometer: 424548
+                
+        ",424548,Putih,AT/Otomatis,448809000,True,False,2021-08-24
+190,66,31,(2019) Suzuki Baleno - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Baleno
+                Tahun Pembuatan: 2019
+                Transmisi: MT/Manual
+                Warna: Putih
+                Kilometer: 517098
+                
+        ",517098,Putih,MT/Manual,359207000,True,False,2023-07-13
+191,76,23,(2020) Honda CR-V - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda CR-V
+                Tahun Pembuatan: 2020
+                Transmisi: MT/Manual
+                Warna: Merah marun
+                Kilometer: 778294
+                
+        ",778294,Merah marun,MT/Manual,173867000,True,False,2023-07-31
+192,60,30,(2013) Daihatsu Ayla - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Daihatsu
+                Model: Daihatsu Ayla
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Putih
+                Kilometer: 393846
+                
+        ",393846,Putih,MT/Manual,214912000,False,False,2023-06-18
+193,2,6,(2018) Hyundai Santa Fe - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Santa Fe
+                Tahun Pembuatan: 2018
+                Transmisi: AT/Otomatis
+                Warna: Magenta
+                Kilometer: 604740
+                Harga bisa di NEGO!
+        ",604740,Magenta,AT/Otomatis,388100000,False,True,2023-02-06
+194,66,24,(2013) Toyota Alphard - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Toyota
+                Model: Toyota Alphard
+                Tahun Pembuatan: 2013
+                Transmisi: MT/Manual
+                Warna: Merah bata
+                Kilometer: 133763
+                Harga bisa di NEGO!
+        ",133763,Merah bata,MT/Manual,43689000,True,True,2023-03-12
+195,49,48,(2016) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2016
+                Transmisi: MT/Manual
+                Warna: Koral
+                Kilometer: 578918
+                Harga bisa di NEGO!
+        ",578918,Koral,MT/Manual,423209000,False,True,2023-04-14
+196,36,34,(2018) Suzuki Ignis - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ignis
+                Tahun Pembuatan: 2018
+                Transmisi: MT/Manual
+                Warna: Merah
+                Kilometer: 138517
+                
+        ",138517,Merah,MT/Manual,99056000,True,False,2021-05-21
+197,80,18,(2014) BMW 3301 - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: BMW
+                Model: BMW 3301
+                Tahun Pembuatan: 2014
+                Transmisi: AT/Otomatis
+                Warna: Nila
+                Kilometer: 773103
+                Harga bisa di NEGO!
+        ",773103,Nila,AT/Otomatis,366797000,True,True,2022-12-02
+198,25,4,(2022) Hyundai Creta - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Hyundai
+                Model: Hyundai Creta
+                Tahun Pembuatan: 2022
+                Transmisi: MT/Manual
+                Warna: Coklat tua
+                Kilometer: 485927
+                Harga bisa di NEGO!
+        ",485927,Coklat tua,MT/Manual,435865000,False,True,2023-09-09
+199,98,40,(2017) Honda Civic - AT/Otomatis,"
+            Spesifikasi Mobil
+                Merek: Honda
+                Model: Honda Civic
+                Tahun Pembuatan: 2017
+                Transmisi: AT/Otomatis
+                Warna: Biru muda
+                Kilometer: 955634
+                
+        ",955634,Biru muda,AT/Otomatis,302647000,False,False,2022-09-07
+200,81,49,(2015) Suzuki Ertiga - MT/Manual,"
+            Spesifikasi Mobil
+                Merek: Suzuki
+                Model: Suzuki Ertiga
+                Tahun Pembuatan: 2015
+                Transmisi: MT/Manual
+                Warna: Kuning
+                Kilometer: 163212
+                
+        ",163212,Kuning,MT/Manual,29710000,False,False,2023-11-27
