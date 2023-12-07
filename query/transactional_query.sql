@@ -49,7 +49,8 @@ SELECT ads.ad_id, cb.brand_name, c.model, c.year_manufacture, ads.price
 FROM cars c
 JOIN car_brands cb USING(brand_id)
 JOIN ads USING(car_id)
-WHERE c.model LIKE '%Yaris%';
+WHERE c.model LIKE '%Yaris%'
+ORDER BY ads.price;
 
 -- Mencari mobil bekas yang terdekat berdasarkan sebuah id kota, jarak terdekat dihitung berdasarkan latitude longitude.
 -- Perhitungan jarak dapat dihitung menggunakan rumus jarak euclidean berdasarkan latitude dan longitude.
