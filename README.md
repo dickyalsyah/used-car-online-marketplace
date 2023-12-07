@@ -363,7 +363,7 @@ JOIN cities ci USING(city_id);
 </p>
 
 #### Case 3:
-From the bids for a specific car model, find the comparison of dates when users placed bids with the next bid and the offered bid price. For example, bids for the Toyota car model.
+From the bids for a specific car model, find the comparison of dates when users placed bids with the next bid and the offered bid price. For example, bids for the Toyota Yaris car model.
 ```sql
 SELECT
     model,
@@ -427,7 +427,7 @@ GROUP BY 1,3;
 </p>
 
 #### Case 5:
-Creating a window function for the average bid price of a brand and car model over the last 6 months. For example, searching for Toyota Civic cars in the last 6 months.
+Creating a window function for the average bid price of a brand and car model over the last 6 months. For example, searching for Honda Brio cars in the last 6 months.
 ```sql
 SELECT
 	cb.brand_name
