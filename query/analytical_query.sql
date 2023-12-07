@@ -16,7 +16,7 @@ FROM ads a
 JOIN cars c USING(car_id)
 JOIN bids_rank USING(model)
 GROUP BY 1, 3
-ORDER BY 2 DESC;
+ORDER BY 3 DESC;
 
 -- Membandingkan harga mobil berdasarkan harga rata-rata per kota
 SELECT
