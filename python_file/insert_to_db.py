@@ -47,16 +47,16 @@ class InsertDummy:
             self.conn.close()
 
 # Define the path to the data and the tables to insert data into
-path = 'dummy_datasets'
-tables = {
-    'cities': f'{path}/cities_dummy.csv',
-    'users': f'{path}/users_dummy.csv',
-    'car_brands': f'{path}/brands_dummy.csv',
-    'cars': f'{path}/cars_dummy.csv',
-    'ads': f'{path}/ads_dummy.csv',
-    'bids': f'{path}/bids_dummy.csv',
-}
+# path = 'dummy_datasets'
+# tables = {
+#     'cities': f'{path}/cities_dummy.csv',
+#     'users': f'{path}/users_dummy.csv',
+#     'car_brands': f'{path}/brands_dummy.csv',
+#     'cars': f'{path}/cars_dummy.csv',
+#     'ads': f'{path}/ads_dummy.csv',
+#     'bids': f'{path}/bids_dummy.csv',
+# }
 
-# Create an instance of the class and insert the data
-dummy = InsertDummy()
-dummy.insert_data_from_csv(tables=tables)
+# # Create an instance of the class and insert the data
+# dummy = InsertDummy()
+# dummy.insert_data_from_csv(tables=tables)
