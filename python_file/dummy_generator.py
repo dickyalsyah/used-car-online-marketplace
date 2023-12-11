@@ -7,15 +7,17 @@ import pandas as pd
 # Initialize faker with Indonesia identity
 fake = Faker('id_ID')
 
-def generate_users(num_records = 100, city_file_path=None):
+# def generate_cities(city_file):
+#     df = pd.read_csv(city_file)
+#     df['location'] = '(' + df['latitude'].astype(str) + ', ' + df['longitude'].astype(str) + ')'
+#     cities = df[['city_id', 'city_name', 'location']]
+#     return cities.to_dict('records')
+
+def generate_users(cities, num_records = 100):
     
-    # Open city file that has been already in the folder
-    with open(city_file_path, 'r') as city_file:
-        city_reader = csv.DictReader(city_file)
-        cities = list(city_reader)
-    
+    city_df = pd.read_csv(cities)
     # Extract city_id to the list from city file    
-    city_ids = [val for i in cities for _, val in i.items() if _ == 'city_id']
+    city_ids = [val['city_id'] for val in city_df]
     
     # Initialize empty record list
     user_records = []
@@ -35,9 +37,6 @@ def generate_users(num_records = 100, city_file_path=None):
         
     return user_records
 
-# Convert record list to pandas dataframe
-# users_data = pd.DataFrame(generate_users(num_records = 100, city_file_path='dummy_datasets/cities_dummy.csv'))
-
 def generate_brands():
     # Initiate brand list
     brands = ['Toyota', 'Honda', 'Suzuki', 'Daihatsu', 'BMW', 'Hyundai']
@@ -45,10 +44,8 @@ def generate_brands():
     # Generate brand record with the id
     return [{'brand_id': _+1, 'brand_name': val} for _, val in enumerate(brands)]
 
-# Add generated data to pandas dataframe
-brands_data = pd.DataFrame(generate_brands())
 
-def generate_cars(num_records = 50, brands_data = brands_data):
+def generate_cars(brands_data, num_records=50):
     # Define the allowed brands and models
     brands = list(brands_data['brand_name'].unique())
     
@@ -113,10 +110,8 @@ def generate_cars(num_records = 50, brands_data = brands_data):
     
     return car_records
 
-# Convert record list to pandas dataframe    
-cars_data = pd.DataFrame(generate_cars(brands_data=brands_data))
     
-def generate_ads(num_records = 200, car_data = cars_data, brands_data=brands_data):
+def generate_ads(car_data, brands_data, num_records=200):
     # Initialize an empty list to store the ad records
     ad_records = []
     
@@ -177,11 +172,8 @@ def generate_ads(num_records = 200, car_data = cars_data, brands_data=brands_dat
         })
 
     return ad_records
-
-# Convert record list to pandas dataframe
-ads_data = pd.DataFrame(generate_ads(num_records = 200, car_data = cars_data, brands_data=brands_data))
         
-def generate_bids(num_records=300, ads_data=ads_data):
+def generate_bids(ads_data, num_records=300):
     # Select the ads that are negotiable
     negotiable_ad = ads_data[ads_data['negotiable'] == True]
     
@@ -226,13 +218,3 @@ def generate_bids(num_records=300, ads_data=ads_data):
         bid_id += 1  # Increment bid_id by 1
     
     return bid_records
-
-# Convert record list to pandas dataframe
-bids_data = pd.DataFrame(generate_bids(300, ads_data))
-
-# Save to csv files
-# users_data.to_csv('users_dummy.csv', index=False)
-# brands_data.to_csv('brands_dummy.csv', index=False)
-# cars_data.to_csv('cars_dummy.csv', index=False)
-# ads_data.to_csv('ads_dummy.csv', index=False)
-# bids_data.to_csv('bids_dummy.csv', index=False)

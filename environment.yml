@@ -1,9 +1,13 @@
 name: used_car
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - Faker==19.3.0
-  - pandas
-  - psycopg2-binary==2.9.9
-  - csv
+  - pip=23.3.1=py312hca03da5_0
+  - sqlite=3.41.2=h80987f9_0
+  - pip:
+    - faker==20.1.0
+    - pandas==2.1.4
+    - psycopg2-binary==2.9.9
+    - numpy==1.26.2
 prefix: /Users/dickyalsyah/anaconda3/envs/used_car

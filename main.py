@@ -7,12 +7,12 @@ def main():
     city_file_path = 'dummy_datasets/cities_dummy.csv'
     
     # Generate the dummy data
-    users_data = pd.DataFrame(generate_users(100, city_file_path=city_file_path))
+    users_data = pd.DataFrame(generate_users(100, cities=city_file_path))
     brands_data = pd.DataFrame(generate_brands())
     cars_data = pd.DataFrame(generate_cars(50, brands_data=brands_data))
     ads_data = pd.DataFrame(generate_ads(200, car_data = cars_data, 
                                         brands_data=brands_data))
-    bids_data = pd.DataFrame(generate_bids(300, ads_data))
+    bids_data = pd.DataFrame(generate_bids(300, ads_data=ads_data))
     
     # Define the path to the data
     path = 'dummy_datasets'
