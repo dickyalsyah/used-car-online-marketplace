@@ -179,7 +179,7 @@ CREATE TABLE bids(
 );
 ```
 
-![ERD](https://github.com/dickyalsyah/used-car-online-marketplace/blob/main/img/ER%20Diagram.jpg)
+![ERD](https://github.com/dickyalsyah/used-car-online-marketplace/blob/main/img/ER%20Diag.jpg)
 
 
 ## 🤖 Create and Import Dummy Data to the Database
