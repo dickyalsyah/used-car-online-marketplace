@@ -10,7 +10,7 @@ class CreateInsertQuery:
         
     def credential(self):
         # Load environment variables from env_config.py
-        load_dotenv('database_config/config.py')
+        load_dotenv('database_config/env_config.py')
 
         # Establish a connection to the database
         conn = psycopg2.connect(
