@@ -39,22 +39,19 @@ The used car advertising company requires a database to be connected to its webs
 | bids       | Store information for detailed price offers by potential buyers              |
 
 #### Cities Table
-The `cities` table will store information about cities, such as id, city_name, latitude, and longitude. A unique constraint will be applied to latitude and longitude to ensure that the combination of latitude and longitude is unique.
+The `cities` table will store information about cities, such as id, city_name, location which includes (latitude, and longitude).
 | Column Attribute         | Description                      | Business Rules  |
 |--------------------------|----------------------------------|-----------------|
 | city_id: INT             | Store id of the city             | NOT NULL PK     |
 | city_name: VARCHAR(100)  | Stores city name information     | NOT NULL        |
-| latitude: NUMERIC(9, 6)  | Stores the latitude of the city  | NOT NULL UNIQUE |
-| longitude: NUMERIC(9, 6) | Stores the longitude of the city | NOT NULL UNIQUE |
+| location: POINT          | Stores the latitude & longitude of the city  | NOT NULL |
 
 Then execute this DDL code to the database:
 ```sql
 CREATE TABLE cities(
     city_id INT PRIMARY KEY,
     city_name VARCHAR(100) NOT NULL,
-    latitude NUMERIC(9,6) NOT NULL,
-    longitude NUMERIC(9,6) NOT NULL,
-    CONSTRAINT uc_latlong UNIQUE (latitude, longitude)
+    location POINT NOT NULL
 );
 ```
 
@@ -300,8 +297,30 @@ ORDER BY ads.price;
 #### Case 5:
 Searching for the nearest used cars based on a city ID, where the closest distance is calculated using the Euclidean distance formula based on latitude and longitude.
 ```sql
- SELECT a.user_id, a.car_id, cb.brand_name, c.model, c.year_manufacture, a.price,
-    SQRT(POWER(city.latitude - (-6.145569), 2) + POWER(city.longitude - (106.838368), 2)) AS distance
+CREATE OR REPLACE FUNCTION euclidean_distance(point1 POINT, point2 POINT) 
+RETURNS FLOAT AS $$
+DECLARE
+	lon1 FLOAT := point1[0];
+	lat1 FLOAT := point1[1];
+	lon2 FLOAT := point2[0];
+	lat2 FLOAT := point2[1];
+	distance FLOAT;
+BEGIN
+	-- Euclidean distance formula
+	distance := SQRT(POWER(lat1 - lat2, 2) + POWER(lon1 - lon2, 2));
+	RETURN distance;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT 
+	a.user_id
+	, a.car_id
+	, cb.brand_name
+	, c.model
+	, c.year_manufacture
+	, a.price
+    , euclidean_distance(
+		(city.location), '(-6.145569,106.838368)'::POINT) AS distance
 FROM cars c
 JOIN car_brands cb ON c.brand_id = cb.brand_id
 JOIN ads a ON c.car_id = a.car_id
@@ -363,7 +382,7 @@ JOIN cities ci USING(city_id);
 </p>
 
 #### Case 3:
-From the bids for a specific car model, find the comparison of dates when users placed bids with the next bid and the offered bid price. For example, bids for the Toyota Yaris car model.
+From the bids for a specific car model, find the comparison of dates when users placed bids with the next bid and the offered bid price. For example, bids for the Toyota car model.
 ```sql
 SELECT
     model,
@@ -427,7 +446,7 @@ GROUP BY 1,3;
 </p>
 
 #### Case 5:
-Creating a window function for the average bid price of a brand and car model over the last 6 months. For example, searching for Honda Brio cars in the last 6 months.
+Creating a window function for the average bid price of a brand and car model over the last 6 months. For example, searching for Toyota Civic cars in the last 6 months.
 ```sql
 SELECT
 	cb.brand_name
@@ -462,4 +481,3 @@ ORDER BY 1;
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://dickyalsyah.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dickyalsyah)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/dickyalsyah)
-

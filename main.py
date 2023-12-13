@@ -27,12 +27,12 @@ def main():
 
     # Define tables to insert data into
     tables = {
-        'cities': f'{folder_name}cities_dummy.csv',
-        'users': f'{folder_name}users_dummy.csv',
+        'cities'    : f'{folder_name}cities_dummy.csv',
+        'users'     : f'{folder_name}users_dummy.csv',
         'car_brands': f'{folder_name}brands_dummy.csv',
-        'cars': f'{folder_name}cars_dummy.csv',
-        'ads': f'{folder_name}ads_dummy.csv',
-        'bids': f'{folder_name}bids_dummy.csv',
+        'cars'      : f'{folder_name}cars_dummy.csv',
+        'ads'       : f'{folder_name}ads_dummy.csv',
+        'bids'      : f'{folder_name}bids_dummy.csv',
     }
 
     # Create an instance of the class and insert the data
