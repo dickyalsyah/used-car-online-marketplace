@@ -179,14 +179,14 @@ CREATE TABLE bids(
 );
 ```
 
-![ERD](https://github.com/dickyalsyah/used-car-online-marketplace/blob/main/img/ER%20Diag.jpg)
+![ERD](https://github.com/dickyalsyah/used-car-online-marketplace/blob/main/img/ER%20Diagram.jpg)
 
 
 ## 🤖 Create and Import Dummy Data to the Database
 
 To generate dummy data, I have prepared a Python script called `dummy_generator.py`. Before using it, there are additional libraries that you need to install in your environment, such as Faker. You can also modify the required data size as needed.
 
-After successfully generating the data, the next step is to insert the data into the database using the Python script `insert_to_db.py`. Before running it, it is recommended to configure the database credentials such as password, etc. in the `env_config.py` file and install the psycopg2 library.
+After successfully generating the data, the next step is to create the table and insert the data into the table using the Python script `create_insert_db.py`. Before running it, it is recommended to create a database in your pgAdmin and configure the database credentials such as password, and the name of the database you just created in the `env_config.py` file.
 
 If you want to try it out (generate data then import data to the database), you can run it locally by following these steps:
 
