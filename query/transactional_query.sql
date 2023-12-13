@@ -49,13 +49,35 @@ SELECT ads.ad_id, cb.brand_name, c.model, c.year_manufacture, ads.price
 FROM cars c
 JOIN car_brands cb USING(brand_id)
 JOIN ads USING(car_id)
-WHERE c.model LIKE '%Yaris%'
+WHERE c.model ILIKE '%Yaris%'
 ORDER BY ads.price;
 
 -- Mencari mobil bekas yang terdekat berdasarkan sebuah id kota, jarak terdekat dihitung berdasarkan latitude longitude.
 -- Perhitungan jarak dapat dihitung menggunakan rumus jarak euclidean berdasarkan latitude dan longitude.
-SELECT a.user_id, a.car_id, cb.brand_name, c.model, c.year_manufacture, a.price,
-    SQRT(POWER(city.latitude - (-6.145569), 2) + POWER(city.longitude - (106.838368), 2)) AS distance
+CREATE OR REPLACE FUNCTION euclidean_distance(point1 POINT, point2 POINT) 
+RETURNS FLOAT AS $$
+DECLARE
+	lon1 FLOAT := point1[0];
+	lat1 FLOAT := point1[1];
+	lon2 FLOAT := point2[0];
+	lat2 FLOAT := point2[1];
+	distance FLOAT;
+BEGIN
+	-- Euclidean distance formula
+	distance := SQRT(POWER(lat1 - lat2, 2) + POWER(lon1 - lon2, 2));
+	RETURN distance;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT 
+	a.user_id
+	, a.car_id
+	, cb.brand_name
+	, c.model
+	, c.year_manufacture
+	, a.price
+    , ROUND(euclidean_distance(
+		(city.location), '(-6.145569,106.838368)'::POINT)::NUMERIC, 4) AS distance
 FROM cars c
 JOIN car_brands cb ON c.brand_id = cb.brand_id
 JOIN ads a ON c.car_id = a.car_id

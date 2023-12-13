@@ -3,14 +3,14 @@ import os
 from dotenv import load_dotenv
 
 # Define a class to insert dummy data into a database
-class InsertDummy:
+class CreateInsertQuery:
     def __init__(self):
         # Initialize the connection to the database
         self.conn = self.credential()
         
     def credential(self):
         # Load environment variables from env_config.py
-        load_dotenv('database_config/env_config.py')
+        load_dotenv('database_config/config.py')
 
         # Establish a connection to the database
         conn = psycopg2.connect(
@@ -18,9 +18,33 @@ class InsertDummy:
             password=os.environ['DATABASE_PASSWORD'],
             host=os.environ['DATABASE_HOST'],
             port=os.environ['DATABASE_PORT'],
-            database='used_car'
+            database=os.environ['DATABASE_NAME']
         )
         return conn
+    
+    def create_tables(self, sql_file):
+        try:
+            # Create a cursor object
+            cur = self.conn.cursor()
+            
+            # Read the SQL file
+            with open(f'{sql_file}', 'r') as file:
+                sql_query = file.read()
+            
+            # Execute the SQL query
+            cur.execute(sql_query)
+            
+            # Commit the transaction
+            self.conn.commit()
+            print("Successfully created tables!")
+            
+        except (Exception, psycopg2.DatabaseError) as error:
+            # Print any errors that occur
+            print("Error: ", error)
+        
+        finally:
+            # Close the cursor
+            cur.close()
         
     def insert_data_from_csv(self, tables):
         try:
@@ -45,18 +69,3 @@ class InsertDummy:
             # Close the cursor and the connection
             cur.close()
             self.conn.close()
-
-# Define the path to the data and the tables to insert data into
-# path = 'dummy_datasets'
-# tables = {
-#     'cities': f'{path}/cities_dummy.csv',
-#     'users': f'{path}/users_dummy.csv',
-#     'car_brands': f'{path}/brands_dummy.csv',
-#     'cars': f'{path}/cars_dummy.csv',
-#     'ads': f'{path}/ads_dummy.csv',
-#     'bids': f'{path}/bids_dummy.csv',
-# }
-
-# # Create an instance of the class and insert the data
-# dummy = InsertDummy()
-# dummy.insert_data_from_csv(tables=tables)

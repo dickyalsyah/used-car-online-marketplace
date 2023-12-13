@@ -2,39 +2,60 @@ from faker import Faker
 import random
 import csv
 from datetime import datetime
-import pandas as pd
+import os
 
 # Initialize faker with Indonesia identity
 fake = Faker('id_ID')
 
-# def generate_cities(city_file):
-#     df = pd.read_csv(city_file)
-#     df['location'] = '(' + df['latitude'].astype(str) + ', ' + df['longitude'].astype(str) + ')'
-#     cities = df[['city_id', 'city_name', 'location']]
-#     return cities.to_dict('records')
+def generate_cities(city_file):
+    # Open the CSV file
+    with open(city_file, 'r') as f:
+        # Use csv.DictReader to read the CSV file into a list of dictionaries
+        reader = csv.DictReader(f)
+        
+        # Initialize an empty list to store the cities
+        cities_records = []
+        
+        # Iterate over each row in the CSV file
+        for row in reader:
+            # Append the city dictionary to the cities list
+            cities_records.append({
+            'city_id' : row['city_id'],
+            'city_name' : row['city_name'],
+            'location' : row['latitude'] + ', ' + row['longitude']
+            })
+            
+        return cities_records
 
 def generate_users(cities, num_records = 100):
     
-    city_df = pd.read_csv(cities)
     # Extract city_id to the list from city file    
-    city_ids = [val['city_id'] for val in city_df]
+    city_ids = [val['city_id'] for val in cities]
+    city_ids = [city['city_id'] for city in cities]
     
-    # Initialize empty record list
+    # Initialize empty record list and set unique names
     user_records = []
+    unique_names = set()
     
     # Generate data based on number records that we wanted
-    for index in range(1, num_records+1):
-        user = {
-            'user_id': index,
-            'name': fake.name(),
-            'phone_number': fake.phone_number(),
-            'city_id': random.choice(city_ids),
-            'zip_code': random.randint(14000, 20000)
-        }
+    while len(user_records) < num_records:
+        first_name = fake.first_name()
+        last_name = fake.last_name()
         
-        # Append every generated data to the record list
-        user_records.append(user)
+        full_name = (f'{first_name} {last_name}')
         
+        if full_name not in unique_names:
+            unique_names.add(full_name)
+            
+            # Append every generated data to the record list
+            user_records.append({
+                'user_id': len(user_records) + 1,
+                'name': full_name,
+                'phone_number': fake.phone_number(),
+                'city_id': random.choice(city_ids),
+                'zip_code': random.randint(14000, 20000)
+            })
+            
     return user_records
 
 def generate_brands():
@@ -47,7 +68,7 @@ def generate_brands():
 
 def generate_cars(brands_data, num_records=50):
     # Define the allowed brands and models
-    brands = list(brands_data['brand_name'].unique())
+    brands = list(set([brand['brand_name'] for brand in brands_data]))
     
     model_allowed = {
         'Toyota' : ['Yaris', 'Agya', 'Alphard', 'Calya', 'Rush', 'Fortuner'],
@@ -75,8 +96,8 @@ def generate_cars(brands_data, num_records=50):
     # Generate the specified number of car records
     while len(car_records) < num_records:
         # Randomly select a brand and model
-        brand_id = random.randint(1, 6)
-        brand = brands[brand_id - 1]
+        brand_id = random.randint(1, len(brands))
+        brand = next((brand['brand_name'] for brand in brands_data if brand['brand_id'] == brand_id), None)
         model = random.choice(model_allowed[brand])
 
         # Determine the body type based on the model
@@ -95,7 +116,7 @@ def generate_cars(brands_data, num_records=50):
         year_manufacture = random.randint(2012, 2022)
         
         # Generate a unique car ID
-        car_id = len(car_records)+1
+        car_id = len(car_records) + 1
         
         if car_id not in car_ids:
             car_ids.add(car_id)
@@ -109,26 +130,26 @@ def generate_cars(brands_data, num_records=50):
                 'year_manufacture': year_manufacture})
     
     return car_records
-
     
 def generate_ads(car_data, brands_data, num_records=200):
     # Initialize an empty list to store the ad records
     ad_records = []
     
-    # Create a dictionary of brand names indexed by brand ID
-    brand_list = brands_data.set_index('brand_id')['brand_name'].to_dict()
-    
     # Generate the specified number of ad records
-    for i in range(1, num_records+1):
+    for i in range(1, num_records + 1):
         # Randomly select a user ID and car ID
         user_id = random.randint(1, 100)
+        
+        # Create a dictionary mapping car_id to car data
+        car_dict = {car['car_id']: car for car in car_data}
         car_id = random.randint(1, len(car_data))
         
         # Get the car information for the selected car ID
-        car_info = car_data.loc[car_data['car_id'] == car_id].iloc[0]
-        car_model = car_info['model']
-        car_brand = brand_list.get(car_info['brand_id'])
-        car_year_manufacture = car_info['year_manufacture']
+        car = car_dict.get(car_id)
+        if car:
+            car_model = car['model']
+            car_brand = next((brand['brand_name'] for brand in brands_data if brand['brand_id'] == car['brand_id']), None)
+            car_year_manufacture = car['year_manufacture']
         
         # Randomly select the data needed
         mileage_km = random.randint(100, 999999)
@@ -175,7 +196,7 @@ def generate_ads(car_data, brands_data, num_records=200):
         
 def generate_bids(ads_data, num_records=300):
     # Select the ads that are negotiable
-    negotiable_ad = ads_data[ads_data['negotiable'] == True]
+    negotiable_ad = [ad['ad_id'] for ad in ads_data if ad['negotiable']]
     
     # Initialize an empty list to store the bid records
     bid_records = []
@@ -186,19 +207,22 @@ def generate_bids(ads_data, num_records=300):
     while count < num_records:
         # Randomly select a buyer ID and ad ID
         buyer_id = random.randint(1, 100)
-        ad_ids = random.choice(negotiable_ad['ad_id'].to_list())
+        ad_ids = random.choice(negotiable_ad)
         
         # Get the ad information for the selected ad ID
-        ad_info = ads_data.loc[ads_data['ad_id'] == ad_ids].iloc[0]
+        ad_info = {ad['ad_id']: ad for ad in ads_data}
+        
+        # Get the car information for the selected car ID
+        ad = ad_info.get(ad_ids)
         
         # Randomly select the bid price and bid date
         bid_price = round(random.randint(1000*20000, 1000*499000)/500)*500
-        bid_date = fake.date_between_dates(date_start=ad_info['post_date'], 
+        bid_date = fake.date_between_dates(date_start=ad['post_date'], 
                                             date_end=datetime(2023, 12, 5))
         
         # If the bid price is higher than the ad price or the bid date is 
         # before the post date, skip this iteration
-        if bid_price > ad_info['price'] or bid_date <= ad_info['post_date']:
+        if bid_price > ad['price'] or bid_date <= ad['post_date']:
             continue
         
         # Randomly select the bid status
@@ -218,3 +242,28 @@ def generate_bids(ads_data, num_records=300):
         bid_id += 1  # Increment bid_id by 1
     
     return bid_records
+
+def save_to_csv(data, folder_path, filename):
+    
+    # Create the folder if it doesn't exist
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
+    # Construct the full file path with the folder and filename
+    file_path = os.path.join(folder_path, filename)
+
+    # Extract the keys from the first dictionary in the data list
+    fieldnames = list(data[0].keys())
+
+    # Open the CSV file in write mode
+    with open(file_path, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        
+        # Write the header row
+        writer.writeheader()
+        
+        # Write the data rows
+        for row in data:
+            writer.writerow(row)
+
+    print("Data has been written to", filename)

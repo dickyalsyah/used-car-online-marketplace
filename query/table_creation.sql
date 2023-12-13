@@ -2,9 +2,7 @@
 CREATE TABLE cities(
     city_id INT PRIMARY KEY,
     city_name VARCHAR(100) NOT NULL,
-    latitude NUMERIC(9,6) NOT NULL,
-    longitude NUMERIC(9,6) NOT NULL,
-    CONSTRAINT uc_latlong UNIQUE (latitude, longitude)
+    location POINT NOT NULL
 );
 
 -- Create table users with UNIQUE constraint in phone_number and ADD FK in city_id ON DELETE RETRICT
